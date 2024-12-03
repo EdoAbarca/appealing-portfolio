@@ -1,13 +1,15 @@
-import { useState } from 'react'
 import './App.css'
 import Header from "./components/Header.jsx"
+import Hero from './components/Hero.jsx'
 
-function App() {
+const App = () => {
 
   return (
     <>
       <Header />
-      <h1>Hello world!</h1>
+      <main>
+        <Hero/>
+      </main>
     </>
   )
 }
