@@ -1,6 +1,7 @@
 import './App.css'
 import Header from "./components/Header.jsx"
 import Hero from './components/Hero.jsx'
+import Skill from './components/Skill.jsx'
 
 const App = () => {
 
@@ -9,6 +10,8 @@ const App = () => {
       <Header />
       <main>
         <Hero/>
+        <About/>
+        <Skill/>
       </main>
     </>
   )

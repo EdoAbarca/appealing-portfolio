@@ -40,3 +40,12 @@ const skillItem = [
       desc: 'User Interface'
     },
   ];
+
+
+const Skill = () => {
+  return (
+    <div>Skill</div>
+  )
+}
+
+export default Skill

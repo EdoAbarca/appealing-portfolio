@@ -60,6 +60,7 @@ body{
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
   -webkit-background-clip: text; /*warning, revisar*/
+  background-clip: text; /*Corrección de Stack Overflow, falta revisar si -webkit- es necesario*/
   -webkit-text-fill-color: transparent;
 }
 .headline-1{
@@ -81,4 +82,8 @@ body{
 
 .img-cover{
   @apply w-full h-full object-cover
+}
+
+.section{
+  @apply pt-20 lg:pt-32
 }
