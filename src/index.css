@@ -56,7 +56,7 @@ body{
   @apply h-11 bg-sky-400 text-zinc-950 hover:bg-sky-300 active:bg-sky-400
 }
 
-.headline-1{
+.headline-1, .headline-2{
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
   -webkit-background-clip: text; /*warning, revisar*/
@@ -65,6 +65,10 @@ body{
 }
 .headline-1{
   @apply text-5x1 leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
+}
+
+.headline-2{
+  @apply text-3xl lg:text-4xl lg:leading-tight font-semibold
 }
 
 .materials-symbols-rounded{

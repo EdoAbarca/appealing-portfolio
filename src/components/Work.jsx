@@ -1,4 +1,7 @@
-const works = [
+
+
+const Work = () => {
+  const works = [
     {
       imgSrc: '/images/project-1.jpg',
       title: 'Full stack music app',
@@ -36,3 +39,9 @@ const works = [
       projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
     },
   ];
+  return (
+    <div>Work</div>
+  )
+}
+
+export default Work
