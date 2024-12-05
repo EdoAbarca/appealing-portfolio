@@ -46,7 +46,7 @@ const Skill = () => {
   return (
     <section className="section">
       <div className="container">
-        <h2 className="headline-2">
+        <h2 className="headline-2 reveal-up">
           Knowledge
         </h2>
 
@@ -56,7 +56,7 @@ const Skill = () => {
 
         <div className="grid gap-3 grid-cols-[repeat(auto-fill, _minmax(250,_1fr))]">
           {skillItem.map(({imgSrc, label, desc}, key) => (
-            <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc}/>
+            <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} classes="reveal-up"/>
           ))}
         </div>
       </div>

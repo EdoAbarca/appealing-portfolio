@@ -51,19 +51,20 @@ const Footer = () => {
       <div className="container">
         <div className='lg:grid lg:grid-cols-2'>
           <div className='mb-10'>
-            <h2 className="headline-1 mb-8 lg:max-w-[12ch]">
+            <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
               Let&apos;s work together!
             </h2>
 
             <ButtonPrimary
               href="mailto:eduardo.abarca.c@usach.cl"
               label="Start project"
-              icon="chevron_right" />
+              icon="chevron_right" 
+              classes="reveal-up"/>
           </div>
 
           <div className="grid grid-cols-2 gap-4 lg:pl-20">
             <div>
-              <p className='mb-2'>
+              <p className='mb-2 reveal-up'>
                 Sitemap
               </p>
 
@@ -72,7 +73,7 @@ const Footer = () => {
                   <li key={key}>
                     <a 
                     href={href}
-                      className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200'>
+                      className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up'>
                       {label}
                     </a>
                   </li>
@@ -81,7 +82,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className='mb-2'>
+              <p className='mb-2 reveal-up'>
                 Socials
               </p>
 
@@ -91,7 +92,7 @@ const Footer = () => {
                     <a 
                     href={href} 
                     target='_blank' 
-                    className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200'>{label}</a>
+                    className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up'>{label}</a>
                   </li>
                 ))}
               </ul>
@@ -101,16 +102,16 @@ const Footer = () => {
 
         <div className="flex items-center justify-between pt-10 mb-8">
           <a
-            href=''
-            className=''>
+            href='/'
+            className='logo reveal-up'>
             <img
               src='/images/logo.svg'
               width={40}
               height={40}
-              alt='Logo' />
+              alt='Logo'/>
           </a>
 
-          <p className='text-zinc-500 text-sm'>
+          <p className='text-zinc-500 text-sm reveal-up'>
             &copy; 2024.
           </p>
         </div>
