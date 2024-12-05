@@ -7,10 +7,12 @@ import Work from './components/Work.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 
+import { ReactLenis } from 'lenis/react'
+
 const App = () => {
 
   return (
-    <>
+    <ReactLenis root>
       <Header />
       <main>
         <Hero/>
@@ -20,7 +22,7 @@ const App = () => {
         <Contact/>
       </main>
       <Footer/>
-    </>
+    </ReactLenis>
   )
 }
 
