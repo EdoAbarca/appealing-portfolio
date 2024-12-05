@@ -1,4 +1,5 @@
-const sitemap = [
+const Footer = () => {
+  const sitemap = [
     {
       label: 'Home',
       href: '#home'
@@ -43,3 +44,9 @@ const sitemap = [
       href: 'https://codepen.io/codewithsadee'
     }
   ];
+  return (
+    <div>Footer</div>
+  )
+}
+
+export default Footer
